@@ -1,0 +1,2 @@
+class EpilsController < ApplicationController
+end

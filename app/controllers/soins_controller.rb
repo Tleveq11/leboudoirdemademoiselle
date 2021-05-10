@@ -1,0 +1,2 @@
+class SoinsController < ApplicationController
+end
