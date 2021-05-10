@@ -2,7 +2,12 @@ Rails.application.routes.draw do
   devise_for :users
   root to: 'pages#home'
 
-  get epil, to: 'epils#epil'
+
+  get '/epil', to: 'epils#epil'
+  get '/tatouage', to: 'tatouages#tatouage'
+  get '/soin', to: 'soins#soin'
+  get '/manicure', to: 'manicures#manicure'
+  get '/contact', to: 'pages#contact'
 
 
 

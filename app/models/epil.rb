@@ -1,0 +1,2 @@
+class Epil < ApplicationRecord
+end
